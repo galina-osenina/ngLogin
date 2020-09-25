@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2db2fc17-3d66-46d7-8d74-726b73d7eedd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/loginApp/src/assets/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginApp/src/app/admin-page/admin-page.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginApp/src/app/admin-page/admin.guards.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginApp/src/app/user-page/user-page.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/login-page/login-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login-page/login-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/login-page/login-page.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login-page/login-page.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/login-page/login-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login-page/login-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/services/login.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/services/login.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +47,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600947441777</updated>
-      <workItem from="1600947442913" duration="9557000" />
+      <workItem from="1600947442913" duration="9894000" />
+      <workItem from="1601017888405" duration="13907000" />
     </task>
     <servers />
   </component>
@@ -46,11 +56,11 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="305" y="71" width="670" height="676" key="search.everywhere.popup" timestamp="1600959528035">
-      <screen x="0" y="23" width="1280" height="723" />
+    <state x="305" y="71" width="670" height="676" key="search.everywhere.popup" timestamp="1601038074980">
+      <screen x="0" y="23" width="1280" height="724" />
     </state>
     <state x="305" y="71" width="670" height="674" key="search.everywhere.popup/0.23.1280.721/1280.23.1920.1177@0.23.1280.721" timestamp="1600953962653" />
     <state x="305" y="71" width="670" height="676" key="search.everywhere.popup/0.23.1280.723/1280.23.1920.1177@0.23.1280.723" timestamp="1600959528035" />
-    <state x="305" y="71" width="670" height="676" key="search.everywhere.popup/0.23.1280.724/1280.23.1920.1177@0.23.1280.724" timestamp="1600952210615" />
+    <state x="305" y="71" width="670" height="676" key="search.everywhere.popup/0.23.1280.724/1280.23.1920.1177@0.23.1280.724" timestamp="1601038074980" />
   </component>
 </project>

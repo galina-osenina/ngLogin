@@ -11,6 +11,10 @@ import { Router } from "@angular/router";
 
 export class LoginPageComponent implements OnInit {
   loginForm: FormGroup
+  userLinks = {
+    'admin': '/admin',
+    'user': '/user'
+  }
 
   constructor(
     private auth: LoginService,
@@ -31,21 +35,13 @@ export class LoginPageComponent implements OnInit {
     }
 
     this.auth.getUsers().subscribe(res => {
-      let _user = Object.values(res).find(el => (el.login == user.login) && (el.password == user.password));
-      if (typeof _user != 'undefined') {
-        switch(_user.role) {
-          case 'admin':
-            this.route.navigate(['/admin']);
-            break;
-          case 'user':
-            this.route.navigate(['/user']);
-            break;
-        }
+      const _user = Object.values(res).find(el => (el.login == user.login) && (el.password == user.password));
+      if (!!_user) {
+        this.route.navigate([this.userLinks[_user.role]]);
+        localStorage.setItem('userRole', _user.role);
       }
-    });
+    })
 
-    //this.loginForm.reset();
-    //this.route.navigate(['/admin']);
   }
 
 }

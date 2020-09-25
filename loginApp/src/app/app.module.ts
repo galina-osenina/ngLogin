@@ -6,15 +6,14 @@ import { AppComponent } from './app.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { HttpClientModule } from "@angular/common/http";
-import { AdminPageComponent } from './admin-page/admin-page.component';
-import { UserPageComponent } from './user-page/user-page.component';
+import { AdminGuards } from "./admin-page/admin.guards";
+import {LoginFormComponent} from "./login-page/components/login-form/login-form.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginPageComponent,
-    AdminPageComponent,
-    UserPageComponent
+    LoginFormComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +22,7 @@ import { UserPageComponent } from './user-page/user-page.component';
     ReactiveFormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [AdminGuards],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
