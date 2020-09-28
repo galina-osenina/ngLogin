@@ -2,21 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2db2fc17-3d66-46d7-8d74-726b73d7eedd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/loginApp/src/app/admin-page/admin-page.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginApp/src/app/admin-page/admin.guards.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginApp/src/app/user-page/user-page.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/login-page/components/login-form/login-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login-page/components/login-form/login-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/login-page/components/login-form/login-form.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login-page/components/login-form/login-form.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/login-page/components/login-form/login-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login-page/components/login-form/login-form.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginApp/src/app/login-page/login-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login-page/login-page.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/login-page/login-page.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login-page/login-page.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginApp/src/app/login-page/login-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login-page/login-page.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/services/login.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/services/login.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/loginApp/node_modules/typescript/lib" />
@@ -39,7 +47,10 @@
       <recent name="$PROJECT_DIR$/loginApp/src/app/login-page" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2db2fc17-3d66-46d7-8d74-726b73d7eedd" name="Default Changelist" comment="" />
@@ -49,11 +60,12 @@
       <updated>1600947441777</updated>
       <workItem from="1600947442913" duration="9894000" />
       <workItem from="1601017888405" duration="13907000" />
+      <workItem from="1601249393908" duration="8229000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="305" y="71" width="670" height="676" key="search.everywhere.popup" timestamp="1601038074980">

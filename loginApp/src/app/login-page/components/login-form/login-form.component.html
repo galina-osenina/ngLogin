@@ -1,19 +1,22 @@
-<form [formGroup]="loginForm" class="form" (ngSubmit)="login()">
-  <div class="form-group">
-    <label for="login" class="form-label">Login</label>
-    <input type="text" id="login" class="form-input" formControlName="login">
+<form [formGroup]="loginForm" class="form" (submit)="login()">
+  <div>
+    <mat-form-field appearance="outline">
+      <mat-label>Login</mat-label>
+      <input matInput placeholder="Login" formControlName="login">
+    </mat-form-field>
     <div *ngIf="loginForm.get('login').touched && loginForm.get('login').invalid">
       <p *ngIf="loginForm.get('login').errors.required" class="form-error">This field is required</p>
     </div>
   </div>
 
-  <div class="form-group">
-    <label for="password" class="form-label">Password</label>
-    <input type="text" id="password" class="form-input" formControlName="password">
+  <div>
+    <mat-form-field appearance="outline">
+      <mat-label>Password</mat-label>
+      <input matInput placeholder="Password" formControlName="password">
+    </mat-form-field>
     <div *ngIf="loginForm.get('password').touched && loginForm.get('password').invalid">
       <p *ngIf="loginForm.get('password').errors.required" class="form-error">This field is required</p>
     </div>
   </div>
-
-  <button type="submit">Log In</button>
+  <button mat-stroked-button color="primary">Log In</button>
 </form>
