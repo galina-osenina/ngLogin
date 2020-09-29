@@ -22,7 +22,7 @@
   <div>
     <mat-form-field appearance="fill">
       <mat-label>Departments</mat-label>
-      <mat-select multiple>
+      <mat-select multiple formControlName="department">
         <mat-option *ngFor="let department of departments" [value]="department.name">
           {{department.name}}
         </mat-option>

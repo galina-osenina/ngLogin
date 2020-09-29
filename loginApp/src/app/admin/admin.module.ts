@@ -1,6 +1,7 @@
 import { NgModule } from "@angular/core";
 import { RouterModule } from "@angular/router";
 import { AdminPageComponent } from "./components/admin-page/admin-page.component";
+import { CommonModule } from "@angular/common";
 
 @NgModule({
   declarations: [AdminPageComponent],
@@ -11,7 +12,8 @@ import { AdminPageComponent } from "./components/admin-page/admin-page.component
         pathMatch: 'full',
         component: AdminPageComponent
       }
-    ])
+    ]),
+    CommonModule
   ]
 })
 

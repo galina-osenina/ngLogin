@@ -28,7 +28,7 @@ export class LoginPageComponent implements OnInit {
     this.auth.getUsers().subscribe(res => {
       const _user = Object.values(res).find(el => (el.login == user.login) && (el.password == user.password));
       if (!!_user) {
-        this.route.navigate([this.userLinks[_user.role]]);
+        this.route.navigate([this.userLinks[_user.role]], { queryParams: { department: user.department } });
         localStorage.setItem('userRole', _user.role);
       }
     })

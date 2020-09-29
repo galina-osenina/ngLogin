@@ -19,7 +19,8 @@ export class LoginFormComponent implements OnInit {
   ngOnInit(): void {
     this.loginForm = new FormGroup({
       login: new FormControl(null, [Validators.required]),
-      password: new FormControl(null, [Validators.required])
+      password: new FormControl(null, [Validators.required]),
+      department: new FormControl(null)
     });
 
     this.departmentService.getDepatrments().subscribe(res => {
@@ -30,7 +31,8 @@ export class LoginFormComponent implements OnInit {
   login() {
     this.user = {
       login: this.loginForm.value.login,
-      password: this.loginForm.value.password
+      password: this.loginForm.value.password,
+      department: this.loginForm.value.department
     };
 
     this.onLogin.emit(this.user)
