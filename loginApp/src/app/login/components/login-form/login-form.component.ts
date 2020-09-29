@@ -12,7 +12,7 @@ export class LoginFormComponent implements OnInit {
   loginForm: FormGroup;
   departments: Object = [];
   @Output() onLogin = new EventEmitter();
-  @Output() user;
+  user;
 
   constructor(private departmentService: DepartmentService) { }
 
@@ -20,7 +20,7 @@ export class LoginFormComponent implements OnInit {
     this.loginForm = new FormGroup({
       login: new FormControl(null, [Validators.required]),
       password: new FormControl(null, [Validators.required]),
-      department: new FormControl(null)
+      department: new FormControl([])
     });
 
     this.departmentService.getDepatrments().subscribe(res => {

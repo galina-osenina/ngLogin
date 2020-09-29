@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2db2fc17-3d66-46d7-8d74-726b73d7eedd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/loginApp/src/app/user/components/user-profile/user-profile.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin-page/admin-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin-page/admin-page.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin-page/admin-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin-page/admin-page.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/admin.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin-page/admin.guards.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/admin.guards.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/login-page/components/login-form/login-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login/components/login-form/login-form.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/login-page/components/login-form/login-form.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login/components/login-form/login-form.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/login-page/components/login-form/login-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login/components/login-form/login-form.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/login-page/login-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login/components/login-page/login-page.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/login-page/login-page.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login/components/login-page/login-page.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/login-page/login-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login/components/login-page/login-page.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/services/login.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/services/login.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user-page/components/user-profile/user-profile.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/components/user-profile/user-profile.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user-page/components/user-profile/user-profile.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login/login.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user-page/components/user-profile/user-profile.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/components/user-profile/user-profile.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user-page/user-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/components/user-page/user-page.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user-page/user-page.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/components/user-page/user-page.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user-page/user-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/components/user-page/user-page.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user-page/user-page.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/user.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/login/components/login-form/login-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login/components/login-form/login-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/login/components/login-form/login-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login/components/login-form/login-form.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +39,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ngLogin\loginApp\src\app\admin\services" />
       <recent name="D:\ngLogin\loginApp\src\app\user\components\user-page" />
       <recent name="D:\ngLogin\loginApp\src\app\login\components\login-page" />
       <recent name="D:\ngLogin\loginApp\src\app\admin\components\admin-page" />
       <recent name="D:\ngLogin\loginApp\src\app\admin\components" />
-      <recent name="$PROJECT_DIR$/loginApp/src/assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
@@ -82,7 +64,7 @@
       <workItem from="1601285566579" duration="6706000" />
       <workItem from="1601302391979" duration="234000" />
       <workItem from="1601303175406" duration="3355000" />
-      <workItem from="1601363054695" duration="9074000" />
+      <workItem from="1601363054695" duration="16253000" />
     </task>
     <servers />
   </component>
