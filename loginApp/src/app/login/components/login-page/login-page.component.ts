@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import {FormControl, FormGroup, Validators} from "@angular/forms";
-import { LoginService } from "../services/login.service";
+import {Component, Input, OnInit} from '@angular/core';
+import { LoginService } from "../../../admin/services/login.service";
 import { Router } from "@angular/router";
 
 @Component({
@@ -10,7 +9,7 @@ import { Router } from "@angular/router";
 })
 
 export class LoginPageComponent implements OnInit {
-  loginForm: FormGroup
+
   userLinks = {
     'admin': '/admin',
     'user': '/user'
@@ -22,18 +21,10 @@ export class LoginPageComponent implements OnInit {
     ) { }
 
   ngOnInit(): void {
-    this.loginForm = new FormGroup({
-      login: new FormControl(null, [Validators.required]),
-      password: new FormControl(null, [Validators.required])
-    })
+
   }
 
-  onLogin() {
-    const user = {
-      login: this.loginForm.value.login,
-      password: this.loginForm.value.password
-    }
-
+  onLogin(user) {
     this.auth.getUsers().subscribe(res => {
       const _user = Object.values(res).find(el => (el.login == user.login) && (el.password == user.password));
       if (!!_user) {

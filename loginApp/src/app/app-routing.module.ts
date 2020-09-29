@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { LoginPageComponent } from './login-page/login-page.component'
-import { AdminGuards } from "./admin-page/admin.guards";
+import { LoginPageComponent } from './login/components/login-page/login-page.component'
+import { AdminGuards } from "./admin/admin.guards";
 
 const routes: Routes = [
   {
@@ -10,12 +10,12 @@ const routes: Routes = [
   },
   {
     path: 'admin',
-    loadChildren: () => import('./admin-page/admin-page.module').then(m => m.AdminPageModule),
+    loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule),
     canActivate : [AdminGuards]
   },
   {
     path: 'user',
-    loadChildren: () => import('./user-page/user-page.module').then(m => m.UserPageModule)
+    loadChildren: () => import('./user/user.module').then(m => m.UserModule)
   }
 ];
 

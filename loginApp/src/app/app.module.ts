@@ -3,32 +3,21 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginPageComponent } from './login-page/login-page.component';
-import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { HttpClientModule } from "@angular/common/http";
-import { AdminGuards } from "./admin-page/admin.guards";
-import { LoginFormComponent } from "./login-page/components/login-form/login-form.component";
+import { AdminGuards } from "./admin/admin.guards";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatFormFieldModule } from "@angular/material/form-field";
-import { MatInputModule } from "@angular/material/input";
-import { MatButtonModule } from "@angular/material/button";
+import { LoginModule } from "./login/login.module";
 
 @NgModule({
   declarations: [
-    AppComponent,
-    LoginPageComponent,
-    LoginFormComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
-    ReactiveFormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatButtonModule
+    LoginModule
   ],
   providers: [AdminGuards],
   bootstrap: [AppComponent]

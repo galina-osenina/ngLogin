@@ -1,6 +1,6 @@
 import { NgModule } from "@angular/core";
 import { RouterModule } from "@angular/router";
-import { AdminPageComponent } from "./admin-page.component";
+import { AdminPageComponent } from "./components/admin-page/admin-page.component";
 
 @NgModule({
   declarations: [AdminPageComponent],
@@ -15,4 +15,4 @@ import { AdminPageComponent } from "./admin-page.component";
   ]
 })
 
-export class AdminPageModule {}
+export class AdminModule {}
