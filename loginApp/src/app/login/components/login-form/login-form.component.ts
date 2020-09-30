@@ -11,6 +11,7 @@ import { DepartmentService } from "../../services/department.service";
 export class LoginFormComponent implements OnInit {
   loginForm: FormGroup;
   departments: Object = [];
+
   @Output() onLogin = new EventEmitter();
   user;
 
