@@ -11,9 +11,13 @@ export function UserReducer(
    action: UserActions.Actions
 ) {
   switch (action.type) {
-    case UserActions.GET_USERS:
+    case UserActions.GET_USER:
       return state;
-    case UserActions.ADD_USERS:
+    case UserActions.GET_USER_SUCCESS:
+      return [...state, action.payload];
+    case UserActions.GET_USER_FAILURE:
+      return state;
+    case UserActions.ADD_USER:
       return [...state, action.payload];
     default:
       return state;

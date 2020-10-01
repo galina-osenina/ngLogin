@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from "rxjs";
-import { Store } from "@ngrx/store";
+import { createAction, select, Store } from "@ngrx/store";
 import { UserModel } from "../../../models/user.model";
 import { AppState } from "../../../app.state";
+
+
 
 @Component({
   selector: 'app-user-page',
@@ -11,13 +13,14 @@ import { AppState } from "../../../app.state";
 })
 
 export class UserPageComponent implements OnInit {
-  users: Observable<UserModel[]>;
+
 
   constructor(private store: Store<AppState>) {
-    this.users = store.select('user')
+
   }
 
   ngOnInit(): void {
+
   }
 
 }

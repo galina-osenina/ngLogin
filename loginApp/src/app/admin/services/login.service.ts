@@ -9,15 +9,15 @@ export class LoginService {
 
   constructor(private http: HttpClient) { }
 
-  getUsers() {
-    return this.http.get('../../assets/users.json');
+  getCurrentUser() {
+    const _user = localStorage.getItem('user')
+    console.log('>>> ', _user);
+    this.http.get('../../assets/users.json').subscribe(res => {
+      Object.values(res).find(el => (el.login == _user))
+    });
   }
 
   setUser(user) {
     this.user = user;
-  }
-
-  getUser() {
-    return this.user;
   }
 }

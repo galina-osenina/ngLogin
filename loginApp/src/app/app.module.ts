@@ -9,6 +9,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginModule } from "./login/login.module";
 import { StoreModule } from "@ngrx/store";
 import { UserReducer } from "./reducers/user.reducer";
+import { EffectsModule } from "@ngrx/effects";
+import { UserEffects } from "./user/user.effects";
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 
 @NgModule({
   declarations: [
@@ -19,10 +22,13 @@ import { UserReducer } from "./reducers/user.reducer";
     StoreModule.forRoot({
       user: UserReducer
     }),
+    StoreDevtoolsModule.instrument(),
+    EffectsModule.forRoot([UserEffects]),
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    LoginModule
+    LoginModule,
+    StoreDevtoolsModule
   ],
   providers: [AdminGuards],
   bootstrap: [AppComponent]
