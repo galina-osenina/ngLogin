@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2db2fc17-3d66-46d7-8d74-726b73d7eedd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/actions/user.action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/actions/user.action.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/services/login.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/services/login.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/app.state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/app.state.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/login/components/login-page/login-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login/components/login-page/login-page.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/models/user.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/models/user.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/reducers/user.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/reducers/user.reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/components/user-add/user-add.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/components/user-add/user-add.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/components/user-page/user-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/components/user-page/user-page.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/user.effects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/user.effects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,17 +29,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/cvideo-web-ng2" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/loginApp/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ngLogin\loginApp\src\app\user" />
       <recent name="D:\ngLogin\loginApp\src\app\admin\services" />
       <recent name="D:\ngLogin\loginApp\src\app\shared\models\user" />
       <recent name="D:\ngLogin\loginApp\src\app\user\components\user-page" />
       <recent name="D:\ngLogin\loginApp\src\app\login\components\login-page" />
-      <recent name="D:\ngLogin\loginApp\src\app\admin\components\admin-page" />
     </key>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
@@ -75,7 +66,7 @@
       <workItem from="1601539609966" duration="19015000" />
       <workItem from="1601624959786" duration="12887000" />
       <workItem from="1601845479949" duration="2242000" />
-      <workItem from="1601890661901" duration="3558000" />
+      <workItem from="1601890661901" duration="4554000" />
     </task>
     <servers />
   </component>
@@ -87,10 +78,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601303930126" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601638949026">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601895220799">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601638949026" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601895220799" />
     <state x="833" y="231" key="RollbackChangesDialog" timestamp="1601647191205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
