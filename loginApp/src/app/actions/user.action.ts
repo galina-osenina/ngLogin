@@ -4,7 +4,6 @@ import { UserModel } from "../models/user.model";
 export const GET_USER = '[USERMODEL] Get';
 export const GET_USER_SUCCESS = '[USERMODEL] Get Success'
 export const GET_USER_FAILURE = '[USERMODEL] Get Failure'
-export const ADD_USER = '[USERMODEL] Add';
 
 export class GetUser implements Action {
   readonly type = GET_USER
@@ -27,13 +26,6 @@ export class GetUserFailure implements Action {
   }
 }
 
-export class AddUser implements Action {
-  readonly type = ADD_USER
-
-  constructor(public payload: UserModel) {
-  }
-}
-
-export type Actions = GetUser | AddUser | GetUserSuccess | GetUserFailure
+export type Actions = GetUser | GetUserSuccess | GetUserFailure
 
 

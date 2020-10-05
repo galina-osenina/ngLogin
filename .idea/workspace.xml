@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2db2fc17-3d66-46d7-8d74-726b73d7eedd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/loginApp/src/app/user/user.effects.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginApp/src/app/actions/user.action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/actions/user.action.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/admin.guards.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/admin.guards.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/services/login.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/services/login.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/app.state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/app.state.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginApp/src/app/login/components/login-page/login-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login/components/login-page/login-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/models/user.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/models/user.model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginApp/src/app/reducers/user.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/reducers/user.reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/components/user-page/user-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/components/user-page/user-page.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/components/user-page/user-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/components/user-page/user-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/user.effects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/user.effects.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/cvideo-web-ng2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/loginApp/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -50,7 +51,7 @@
       <recent name="D:\ngLogin\loginApp\src\app\admin\components\admin-page" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -72,36 +73,41 @@
       <workItem from="1601454155867" duration="13780000" />
       <workItem from="1601473372136" duration="4181000" />
       <workItem from="1601539609966" duration="19015000" />
+      <workItem from="1601624959786" duration="12887000" />
+      <workItem from="1601845479949" duration="2242000" />
+      <workItem from="1601890661901" duration="3019000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="718" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601303930126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601303930126" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601456336738">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601638949026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601456336738" />
-    <state x="833" y="231" key="RollbackChangesDialog" timestamp="1601470628961">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601638949026" />
+    <state x="833" y="231" key="RollbackChangesDialog" timestamp="1601647191205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="833" y="231" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601470628961" />
-    <state x="0" y="0" width="1280" height="800" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601565154682">
-      <screen x="0" y="23" width="1280" height="723" />
+    <state x="833" y="231" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601647191205" />
+    <state x="0" y="-33" width="1920" height="1100" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601892923026">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="0" y="-33" width="1920" height="1100" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601892923026" />
     <state x="0" y="0" width="1280" height="800" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.723/1280.23.1920.1177@0.23.1280.723" timestamp="1601565154682" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1601473536805">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1601890736496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601473536805" />
-    <state x="337" y="137" width="604" height="490" key="find.popup" timestamp="1601557517948">
-      <screen x="0" y="23" width="1280" height="723" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601890736496" />
+    <state x="506" y="164" width="906" height="705" key="find.popup" timestamp="1601893204658">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="506" y="164" width="906" height="705" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601893204658" />
     <state x="337" y="137" width="604" height="490" key="find.popup/0.23.1280.723/1280.23.1920.1177@0.23.1280.723" timestamp="1601557517948" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1601543764370">
       <screen x="0" y="23" width="1280" height="721" />

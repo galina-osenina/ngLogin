@@ -1,6 +1,6 @@
 <div class="container">
   <h1 class="h1">Admin page</h1>
-  <div *ngIf="departments">
+  <div *ngIf="!!departments && departments.length">
     <p>Departments:</p>
     <ul>
       <li *ngFor="let department of departments">

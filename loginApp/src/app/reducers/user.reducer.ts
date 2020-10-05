@@ -3,22 +3,21 @@ import * as UserActions from "../actions/user.action";
 
 const initialState: UserModel = {
   login: '',
-  password: ''
+  password: '',
+  role: ''
 };
 
 export function UserReducer(
-   state: UserModel[] = [initialState],
+   state: UserModel = initialState,
    action: UserActions.Actions
 ) {
   switch (action.type) {
     case UserActions.GET_USER:
       return state;
     case UserActions.GET_USER_SUCCESS:
-      return [...state, action.payload];
+      return action.payload;
     case UserActions.GET_USER_FAILURE:
       return state;
-    case UserActions.ADD_USER:
-      return [...state, action.payload];
     default:
       return state;
   }

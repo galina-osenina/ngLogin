@@ -1,5 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
+import {Observable} from "rxjs";
+import {UserModel} from "../../models/user.model";
+import {tap} from "rxjs/operators";
 
 @Injectable({
   providedIn: 'root'
@@ -9,12 +12,8 @@ export class LoginService {
 
   constructor(private http: HttpClient) { }
 
-  getCurrentUser() {
-    const _user = localStorage.getItem('user')
-    console.log('>>> ', _user);
-    this.http.get('../../assets/users.json').subscribe(res => {
-      Object.values(res).find(el => (el.login == _user))
-    });
+  getUsers() {
+    return this.http.get('../../assets/users.json');
   }
 
   setUser(user) {
