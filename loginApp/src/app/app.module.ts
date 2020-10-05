@@ -8,7 +8,7 @@ import { AdminGuards } from "./admin/admin.guards";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginModule } from "./login/login.module";
 import { StoreModule } from "@ngrx/store";
-import { UserReducer } from "./reducers/user.reducer";
+import { UserReducer } from "./user/reducers/user.reducer";
 import { EffectsModule } from "@ngrx/effects";
 import { UserEffects } from "./user/user.effects";
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from "rxjs";
 import { createAction, select, Store } from "@ngrx/store";
-import { UserModel } from "../../../models/user.model";
+import { UserModel } from "../../models/user.model";
 import { AppState } from "../../../app.state";
 
 

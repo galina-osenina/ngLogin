@@ -3,7 +3,7 @@ import { LoginService } from "../../../admin/services/login.service";
 import { Router } from "@angular/router";
 import { AppState } from "../../../app.state";
 import { Store} from "@ngrx/store";
-import * as UserActions from "../../../actions/user.action"
+import * as UserActions from "../../../user/actions/user.action"
 
 @Component({
   selector: 'app-login-page',
