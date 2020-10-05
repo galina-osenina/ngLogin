@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from "@angular/forms";
 import { AppState } from "../../../app.state";
 import { Store } from "@ngrx/store";
-import * as UserActions from '../../actions/user.action'
+import * as UserActions from '../../../shared/actions/user.action'
 
 @Component({
   selector: 'app-user-add',

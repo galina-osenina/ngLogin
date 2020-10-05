@@ -3,7 +3,7 @@ import { Actions, Effect, ofType } from '@ngrx/effects';
 import { of } from 'rxjs';
 import { map, catchError, switchMap } from 'rxjs/operators';
 import { LoginService } from "../admin/services/login.service";
-import * as UserActions from './actions/user.action'
+import * as UserActions from '../shared/actions/user.action'
 
 @Injectable()
 

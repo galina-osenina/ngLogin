@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2db2fc17-3d66-46d7-8d74-726b73d7eedd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/loginApp/src/app/company/actions/company.action.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginApp/src/app/company/company.effect.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginApp/src/app/company/models/company.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginApp/src/app/company/reducers/company.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginApp/src/app/company/services/company.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginApp/src/assets/companies.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/app.state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/app.state.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/login/components/login-page/login-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login/components/login-page/login-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/actions/user.action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/shared/actions/user.action.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/components/user-add/user-add.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/components/user-add/user-add.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/reducers/user.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/shared/reducers/user.reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/user.effects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/user.effects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/assets/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/assets/users.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,16 +45,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="D:/cvideo-web-ng2" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/loginApp/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ngLogin\loginApp\src\app\shared" />
       <recent name="D:\ngLogin\loginApp\src\app\user" />
       <recent name="D:\ngLogin\loginApp\src\app\admin\services" />
       <recent name="D:\ngLogin\loginApp\src\app\shared\models\user" />
       <recent name="D:\ngLogin\loginApp\src\app\user\components\user-page" />
-      <recent name="D:\ngLogin\loginApp\src\app\login\components\login-page" />
     </key>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
@@ -66,7 +81,9 @@
       <workItem from="1601539609966" duration="19015000" />
       <workItem from="1601624959786" duration="12887000" />
       <workItem from="1601845479949" duration="2242000" />
-      <workItem from="1601890661901" duration="4554000" />
+      <workItem from="1601890661901" duration="6015000" />
+      <workItem from="1601900930427" duration="5373000" />
+      <workItem from="1601912288426" duration="599000" />
     </task>
     <servers />
   </component>
@@ -91,10 +108,10 @@
     </state>
     <state x="0" y="-33" width="1920" height="1100" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601892923026" />
     <state x="0" y="0" width="1280" height="800" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.723/1280.23.1920.1177@0.23.1280.723" timestamp="1601565154682" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1601890736496">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1601903546359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601890736496" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601903546359" />
     <state x="506" y="164" width="906" height="705" key="find.popup" timestamp="1601893204658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

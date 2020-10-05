@@ -1,4 +1,4 @@
-import { UserModel} from "../models/user.model";
+import { UserModel} from "../../user/models/user.model";
 import * as UserActions from "../actions/user.action";
 
 const initialState: UserModel = {

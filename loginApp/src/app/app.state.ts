@@ -1,6 +1,7 @@
 import { UserModel} from "./user/models/user.model";
+import { CompanyModel } from "./company/models/company.model";
 
 export interface AppState {
-  readonly user: UserModel;
-
+  user: UserModel;
+  company: CompanyModel
 }

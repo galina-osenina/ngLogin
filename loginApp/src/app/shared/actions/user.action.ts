@@ -1,5 +1,5 @@
 import { Action } from "@ngrx/store";
-import { UserModel } from "../models/user.model";
+import { UserModel } from "../../user/models/user.model";
 
 export const GET_USER = '[USERMODEL] Get';
 export const GET_USER_SUCCESS = '[USERMODEL] Get Success'
