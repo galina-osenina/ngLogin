@@ -6,13 +6,16 @@
       "id": 1,
       "name": "Department 1"
     }],
-    "employees": [1, 10]
+    "employees": [3, 10]
   },
   {
     "id": 2,
     "title": "Amazon",
-    "departments": [],
-    "employees": [2, 23]
+    "departments": [{
+      "id": 1,
+      "name": "Department 2"
+    }],
+    "employees": [1, 23]
   },
   {
     "id": 3,

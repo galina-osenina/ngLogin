@@ -1,11 +1,16 @@
 <div class="container">
   <h1 class="h1">Admin page</h1>
-  <div *ngIf="!!departments && departments.length">
-    <p>Departments:</p>
-    <ul>
-      <li *ngFor="let department of departments">
-        {{department.name}}
-      </li>
-    </ul>
+
+  <div *ngIf="!!company">
+    <h2>Company info:</h2>
+    <p>Company name: {{ company. title }}</p>
+    <div *ngIf="!!company.departments">
+      <p>Departments:</p>
+      <ul>
+        <li *ngFor="let department of company.departments">
+          {{department.name}}
+        </li>
+      </ul>
+    </div>
   </div>
 </div>

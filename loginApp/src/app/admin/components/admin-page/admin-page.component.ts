@@ -13,6 +13,7 @@ import * as CompanyActions from "../../../company/actions/company.action";
 export class AdminPageComponent implements OnInit {
   department;
   departments;
+  company;
 
   constructor(
     private route: ActivatedRoute,
@@ -32,6 +33,9 @@ export class AdminPageComponent implements OnInit {
     });
 
     this.store.dispatch(new CompanyActions.GetCompany());
+    this.store.select(s => s.company).subscribe(_company => {
+      this.company = _company;
+    });
 
 
   }

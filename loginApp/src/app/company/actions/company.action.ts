@@ -8,21 +8,21 @@ export const GET_COMPANY_FAILURE = '[COMPANYMODEL] Get Failure';
 
 
 export class GetCompany implements Action {
-  readonly type = GET_COMPANY
+  type = GET_COMPANY
 
   constructor() {
   }
 }
 
 export class GetCompanySuccess implements Action {
-  readonly type = GET_COMPANY_SUCCESS
+  type = GET_COMPANY_SUCCESS
 
   constructor(public payload: CompanyModel) {
   }
 }
 
 export class GetCompanyFailure implements Action {
-  readonly type = GET_COMPANY_FAILURE
+  type = GET_COMPANY_FAILURE
 
   constructor() {
   }

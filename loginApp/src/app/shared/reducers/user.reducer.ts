@@ -2,6 +2,7 @@ import { UserModel} from "../../user/models/user.model";
 import * as UserActions from "../actions/user.action";
 
 const initialState: UserModel = {
+  id: 0,
   login: '',
   password: '',
   role: ''
