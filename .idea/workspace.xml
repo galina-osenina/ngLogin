@@ -5,22 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2db2fc17-3d66-46d7-8d74-726b73d7eedd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/loginApp/src/app/company/actions/company.action.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginApp/src/app/company/company.effect.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginApp/src/app/company/models/company.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginApp/src/app/company/reducers/company.reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginApp/src/app/company/services/company.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginApp/src/assets/companies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginApp/src/app/UI/action/ui.action.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginApp/src/app/UI/models/ui.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginApp/src/app/UI/reducers/ui.reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/admin.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/admin.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginApp/src/app/app.state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/app.state.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/login/components/login-page/login-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/login/components/login-page/login-page.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/actions/user.action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/shared/actions/user.action.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/components/user-add/user-add.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/components/user-add/user-add.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/reducers/user.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/shared/reducers/user.reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/user.effects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/user.effects.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/assets/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/assets/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/company/actions/company.action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/company/actions/company.action.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/company/models/company.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/company/models/company.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/company/reducers/company.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/company/reducers/company.reducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="D:/cvideo-web-ng2" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/loginApp/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -57,7 +53,7 @@
       <recent name="D:\ngLogin\loginApp\src\app\user\components\user-page" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -84,11 +80,12 @@
       <workItem from="1601890661901" duration="6015000" />
       <workItem from="1601900930427" duration="5373000" />
       <workItem from="1601912288426" duration="599000" />
+      <workItem from="1602142976266" duration="9441000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="718" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601303930126">
@@ -121,6 +118,10 @@
       <screen x="0" y="23" width="1280" height="721" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.23.1280.721/1280.23.1920.1177@0.23.1280.721" timestamp="1601543764370" />
+    <state x="511" y="265" width="350" height="300" key="org.angular.cli.generate" timestamp="1602165160661">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state x="511" y="265" width="350" height="300" key="org.angular.cli.generate/0.23.1280.727/1280.23.1920.1177@0.23.1280.727" timestamp="1602165160661" />
     <state x="305" y="71" width="670" height="676" key="search.everywhere.popup" timestamp="1601563777747">
       <screen x="0" y="23" width="1280" height="723" />
     </state>

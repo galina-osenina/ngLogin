@@ -4,6 +4,9 @@ import { DepartmentService } from "../../../login/services/department.service";
 import {AppState} from "../../../app.state";
 import { Store } from "@ngrx/store";
 import * as CompanyActions from "../../../company/actions/company.action";
+import * as UiActions from "../../../UI/action/ui.action";
+import { MatDialog } from "@angular/material/dialog";
+import { ModalComponent } from "../modal/modal.component";
 
 @Component({
   selector: 'app-admin-page',
@@ -18,7 +21,8 @@ export class AdminPageComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private departmentService: DepartmentService,
-    private store: Store<AppState>
+    private store: Store<AppState>,
+    public dialog: MatDialog
   ) { }
 
   ngOnInit(): void {
@@ -36,8 +40,11 @@ export class AdminPageComponent implements OnInit {
     this.store.select(s => s.company).subscribe(_company => {
       this.company = _company;
     });
+  }
 
-
+  showModal() {
+    const dialogRef = this.dialog.open(ModalComponent);
+    this.store.dispatch(new UiActions.ShowModal(true));
   }
 
 }

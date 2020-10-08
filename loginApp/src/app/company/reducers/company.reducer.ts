@@ -4,6 +4,7 @@ import * as CompanyActions from "../actions/company.action";
 const initialState: CompanyModel = {
   id: 0,
   title: '',
+  departments: [],
   employees: []
 };
 
