@@ -8,6 +8,7 @@ import { MatFormFieldModule } from "@angular/material/form-field";
 import { ReactiveFormsModule } from "@angular/forms";
 import { MatInputModule } from "@angular/material/input";
 import { MatButtonModule } from "@angular/material/button";
+import { MatDialogModule } from "@angular/material/dialog";
 
 @NgModule({
   declarations: [UserPageComponent, UserProfileComponent, UserAddComponent],
@@ -17,7 +18,8 @@ import { MatButtonModule } from "@angular/material/button";
     MatInputModule,
     MatFormFieldModule,
     ReactiveFormsModule,
-    MatButtonModule
+    MatButtonModule,
+    MatDialogModule
   ]
 })
 

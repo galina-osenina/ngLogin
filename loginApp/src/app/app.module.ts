@@ -14,7 +14,7 @@ import { EffectsModule } from "@ngrx/effects";
 import { UserEffects } from "./user/user.effects";
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { CompanyEffects } from "./company/company.effect";
-import { UiReducer } from "./UI/reducers/ui.reducer";
+import { ModalReducer } from "./UI/reducers/modal.reducer";
 
 @NgModule({
   declarations: [
@@ -25,7 +25,7 @@ import { UiReducer } from "./UI/reducers/ui.reducer";
     StoreModule.forRoot({
       user: UserReducer,
       company: CompanyReducer,
-      ui: UiReducer
+      ui: ModalReducer
     }),
     StoreDevtoolsModule.instrument(),
     EffectsModule.forRoot([

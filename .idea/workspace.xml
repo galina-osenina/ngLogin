@@ -5,18 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2db2fc17-3d66-46d7-8d74-726b73d7eedd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/loginApp/src/app/UI/action/ui.action.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginApp/src/app/UI/models/ui.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginApp/src/app/UI/reducers/ui.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginApp/src/app/UI/components/modal/modal.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/UI/action/ui.action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/UI/action/ui.action.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/UI/models/ui.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/UI/models/modal.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/UI/reducers/ui.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/UI/reducers/modal.reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/admin.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/admin.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/components/modal/modal.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/UI/components/modal/modal.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/components/modal/modal.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/UI/components/modal/modal.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/components/modal/modal.component.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/loginApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginApp/src/app/app.state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/app.state.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/company/actions/company.action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/company/actions/company.action.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/company/models/company.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/company/models/company.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/company/reducers/company.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/company/reducers/company.reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/components/user-page/user-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/components/user-page/user-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/components/user-page/user-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/components/user-page/user-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/user.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/user.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +43,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/cvideo-web-ng2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cvideo-web-ng2" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/loginApp/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ngLogin\loginApp\src\app\UI\components" />
+      <recent name="D:\ngLogin\loginApp\src\app\UI" />
+      <recent name="D:\ngLogin\loginApp\src\app\shared\components" />
       <recent name="D:\ngLogin\loginApp\src\app\shared" />
       <recent name="D:\ngLogin\loginApp\src\app\user" />
-      <recent name="D:\ngLogin\loginApp\src\app\admin\services" />
-      <recent name="D:\ngLogin\loginApp\src\app\shared\models\user" />
-      <recent name="D:\ngLogin\loginApp\src\app\user\components\user-page" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -92,10 +95,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601303930126" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601895220799">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602229089908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601895220799" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602229089908" />
     <state x="833" y="231" key="RollbackChangesDialog" timestamp="1601647191205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
