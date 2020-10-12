@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2db2fc17-3d66-46d7-8d74-726b73d7eedd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/loginApp/src/app/UI/components/modal/modal.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginApp/src/app/UI/effects/modal.effect.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginApp/src/app/UI/services/modal.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginApp/src/app/UI/action/ui.action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/UI/action/ui.action.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/UI/models/ui.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/UI/models/modal.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/UI/reducers/ui.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/UI/reducers/modal.reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/admin.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/admin.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/UI/models/modal.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/UI/models/modal.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginApp/src/app/UI/reducers/modal.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/UI/reducers/modal.reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/components/modal/modal.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/UI/components/modal/modal.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/components/modal/modal.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/UI/components/modal/modal.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/components/modal/modal.component.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/loginApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/app.state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/app.state.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/components/user-page/user-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/components/user-page/user-page.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/components/user-page/user-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/components/user-page/user-page.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/user.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/user.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +24,20 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,8 +57,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ngLogin\loginApp\src\app\UI\components" />
       <recent name="D:\ngLogin\loginApp\src\app\UI" />
+      <recent name="D:\ngLogin\loginApp\src\app\UI\components" />
       <recent name="D:\ngLogin\loginApp\src\app\shared\components" />
       <recent name="D:\ngLogin\loginApp\src\app\shared" />
       <recent name="D:\ngLogin\loginApp\src\app\user" />
@@ -84,30 +92,35 @@
       <workItem from="1601900930427" duration="5373000" />
       <workItem from="1601912288426" duration="599000" />
       <workItem from="1602142976266" duration="9441000" />
+      <workItem from="1602486599755" duration="22982000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="718" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601303930126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601303930126" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602229089908">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602486681314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602229089908" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602486681314" />
     <state x="833" y="231" key="RollbackChangesDialog" timestamp="1601647191205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="833" y="231" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601647191205" />
-    <state x="0" y="-33" width="1920" height="1100" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601892923026">
+    <state x="0" y="-33" width="1920" height="1100" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602502099841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="-33" width="1920" height="1100" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601892923026" />
+    <state x="0" y="-33" width="1920" height="1100" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602502099841" />
     <state x="0" y="0" width="1280" height="800" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.723/1280.23.1920.1177@0.23.1280.723" timestamp="1601565154682" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1602502283825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602502283825" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1601903546359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -125,9 +138,10 @@
       <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state x="511" y="265" width="350" height="300" key="org.angular.cli.generate/0.23.1280.727/1280.23.1920.1177@0.23.1280.727" timestamp="1602165160661" />
-    <state x="305" y="71" width="670" height="676" key="search.everywhere.popup" timestamp="1601563777747">
-      <screen x="0" y="23" width="1280" height="723" />
+    <state x="458" y="69" width="1005" height="973" key="search.everywhere.popup" timestamp="1602516971284">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="458" y="69" width="1005" height="973" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602516971284" />
     <state x="305" y="71" width="670" height="670" key="search.everywhere.popup/0.23.1280.716/1280.23.1920.1177@0.23.1280.716" timestamp="1601561789423" />
     <state x="305" y="71" width="670" height="674" key="search.everywhere.popup/0.23.1280.721/1280.23.1920.1177@0.23.1280.721" timestamp="1601561370443" />
     <state x="305" y="71" width="670" height="676" key="search.everywhere.popup/0.23.1280.723/1280.23.1920.1177@0.23.1280.723" timestamp="1601563777747" />

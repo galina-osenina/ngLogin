@@ -4,7 +4,7 @@ import { DepartmentService } from "../../../login/services/department.service";
 import {AppState} from "../../../app.state";
 import { Store } from "@ngrx/store";
 import * as CompanyActions from "../../../company/actions/company.action";
-import * as UiActions from "../../../UI/action/ui.action";
+import * as UIActions from "../../../UI/action/ui.action";
 import { MatDialog } from "@angular/material/dialog";
 import { ModalComponent } from "../../../UI/components/modal/modal.component";
 
@@ -47,23 +47,14 @@ export class AdminPageComponent implements OnInit {
       id: 'admin-page-modal',
       title: 'Admin page modal',
       text: 'Admin page description',
-    }
+    };
 
-    const dialogRef = this.dialog.open(ModalComponent, {
-      data: _data
-    });
 
-    this.store.dispatch(new UiActions.ShowModal({
-      modalId: _data.id,
-      modalOpen: true
-    }));
-
-    dialogRef.afterClosed().subscribe(() => {
-      this.store.dispatch(new UiActions.CloseModal({
-        modalId: '',
-        modalOpen: false
-      }));
-    });
+    this.store.dispatch(new UIActions.ShowModal({
+      id: 'admin-page-modal',
+      title: 'Admin page modal',
+      text: 'Admin page description',
+    }))
   }
 
 }

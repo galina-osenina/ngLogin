@@ -15,6 +15,8 @@ import { UserEffects } from "./user/user.effects";
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { CompanyEffects } from "./company/company.effect";
 import { ModalReducer } from "./UI/reducers/modal.reducer";
+import { UiEffects } from "./UI/effects/modal.effect";
+import { UiModule } from "./UI/ui.module";
 
 @NgModule({
   declarations: [
@@ -30,13 +32,15 @@ import { ModalReducer } from "./UI/reducers/modal.reducer";
     StoreDevtoolsModule.instrument(),
     EffectsModule.forRoot([
       UserEffects,
-      CompanyEffects
+      CompanyEffects,
+      UiEffects
     ]),
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
     LoginModule,
-    StoreDevtoolsModule
+    StoreDevtoolsModule,
+    UiModule
   ],
   providers: [AdminGuards],
   bootstrap: [AppComponent]

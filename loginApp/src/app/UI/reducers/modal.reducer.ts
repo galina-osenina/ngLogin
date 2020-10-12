@@ -3,7 +3,7 @@ import * as UiActions from "../action/ui.action"
 
 const initialState: ModalModel = {
   modalId: '',
-  modalOpen: false
+  modalOpen: false,
 }
 
 export function ModalReducer(
@@ -12,7 +12,15 @@ export function ModalReducer(
 ) {
   switch (action.type) {
     case UiActions.SHOW_MODAL:
-      return  action.payload
+      return  {
+        modalId: action.payload,
+        modalOpen: true
+      }
+    case UiActions.SHOWN_MODAL:
+      return  {
+        modalId: action.payload,
+        modalOpen: true
+      }
     case UiActions.CLOSE_MODAL:
       return  action.payload;
     default:

@@ -26,26 +26,6 @@ export class UserPageComponent implements OnInit {
   }
 
   showModal() {
-    const _data = {
-      id: 'user-page-modal',
-      title: 'User page modal',
-      text: 'User page description',
-    }
 
-    const dialogRef = this.dialog.open(ModalComponent, {
-      data: _data
-    });
-
-    this.store.dispatch(new UiActions.ShowModal({
-      modalId: _data.id,
-      modalOpen: true
-    }));
-
-    dialogRef.afterClosed().subscribe(() => {
-      this.store.dispatch(new UiActions.CloseModal({
-        modalId: '',
-        modalOpen: false
-      }));
-    });
   }
 }

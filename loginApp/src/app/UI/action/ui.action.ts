@@ -1,13 +1,21 @@
 import { Action } from "@ngrx/store";
-import { ModalModel } from "../models/modal.model";
+import { ModalModel, ModalData } from "../models/modal.model";
 
 export const SHOW_MODAL = '[ModalModel] Show'
+export const SHOWN_MODAL = '[ModalModel] Shown'
 export const CLOSE_MODAL = '[ModalModel] Close'
 
 export class ShowModal implements Action {
   readonly type = SHOW_MODAL
 
-  constructor(public payload: ModalModel) {
+  constructor(public payload: ModalData) {
+  }
+}
+
+export class ShownModal implements Action {
+  readonly type = SHOWN_MODAL
+
+  constructor(public payload: ModalModel ) {
   }
 }
 
@@ -18,5 +26,5 @@ export class CloseModal implements Action {
   }
 }
 
-export type Actions = ShowModal | CloseModal
+export type Actions = ShowModal | ShownModal | CloseModal
 
