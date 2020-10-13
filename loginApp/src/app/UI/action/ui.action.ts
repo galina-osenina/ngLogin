@@ -15,14 +15,14 @@ export class ShowModal implements Action {
 export class ShownModal implements Action {
   readonly type = SHOWN_MODAL
 
-  constructor(public payload: ModalModel ) {
+  constructor(public payload: Object ) {
   }
 }
 
 export class CloseModal implements Action {
   readonly type = CLOSE_MODAL
 
-  constructor(public payload: ModalModel) {
+  constructor() {
   }
 }
 

@@ -5,6 +5,6 @@ export interface ModalData {
 }
 
 export interface ModalModel {
-  modalId: string,
+  modalData: ModalData,
   modalOpen: boolean,
 }

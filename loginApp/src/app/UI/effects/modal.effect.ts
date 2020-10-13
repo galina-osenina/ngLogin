@@ -20,10 +20,7 @@ export class UiEffects {
     this._actions$.pipe(
         ofType(UIActions.SHOW_MODAL),
         map((action: UIActions.ShowModal) => {
-          const details = this._modal.open(action.payload);
-          return new UIActions.ShownModal({
-            modalId: '',
-            modalOpen: true
-          });
+          this._modal.open(action.payload);
+          return new UIActions.ShownModal(action.payload);
         }));
 }

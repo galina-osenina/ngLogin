@@ -6,6 +6,7 @@ import { AppState } from "../../../app.state";
 import {ModalComponent} from "../../../UI/components/modal/modal.component";
 import * as UiActions from "../../../UI/action/ui.action";
 import { MatDialog } from "@angular/material/dialog";
+import * as UIActions from "../../../UI/action/ui.action";
 
 
 @Component({
@@ -26,6 +27,10 @@ export class UserPageComponent implements OnInit {
   }
 
   showModal() {
-
+    this.store.dispatch(new UIActions.ShowModal({
+      id: 'user-page-modal',
+      title: 'User page modal',
+      text: 'User page description',
+    }))
   }
 }
