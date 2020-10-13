@@ -24,6 +24,9 @@ export class UserPageComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    uploadcare.openPanel('#v2-uploader-placeholder', null, {
+      publicKey: '89c8f3b9a267f0426d6a'
+    });
   }
 
   showModal() {
