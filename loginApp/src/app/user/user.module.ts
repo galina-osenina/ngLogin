@@ -9,6 +9,7 @@ import { ReactiveFormsModule } from "@angular/forms";
 import { MatInputModule } from "@angular/material/input";
 import { MatButtonModule } from "@angular/material/button";
 import { MatDialogModule } from "@angular/material/dialog";
+import { UcWidgetModule } from "ngx-uploadcare-widget";
 
 @NgModule({
   declarations: [UserPageComponent, UserProfileComponent, UserAddComponent],
@@ -19,7 +20,8 @@ import { MatDialogModule } from "@angular/material/dialog";
     MatFormFieldModule,
     ReactiveFormsModule,
     MatButtonModule,
-    MatDialogModule
+    MatDialogModule,
+    UcWidgetModule
   ]
 })
 

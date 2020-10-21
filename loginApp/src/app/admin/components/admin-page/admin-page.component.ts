@@ -45,13 +45,6 @@ export class AdminPageComponent implements OnInit {
   }
 
   showModal() {
-    const _data = {
-      id: 'admin-page-modal',
-      title: 'Admin page modal',
-      text: 'Admin page description',
-    };
-
-
     this.store.dispatch(new UIActions.ShowModal({
       id: 'admin-page-modal',
       title: 'Admin page modal',
