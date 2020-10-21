@@ -6,8 +6,10 @@ import { AppState } from "../../../app.state";
 import {ModalComponent} from "../../../UI/components/modal/modal.component";
 import * as UiActions from "../../../UI/action/ui.action";
 import { MatDialog } from "@angular/material/dialog";
+import { role } from "../../../shared/decorators/role.decorator";
 
 
+@role('user')
 @Component({
   selector: 'app-user-page',
   templateUrl: './user-page.component.html',
@@ -29,3 +31,6 @@ export class UserPageComponent implements OnInit {
 
   }
 }
+
+
+

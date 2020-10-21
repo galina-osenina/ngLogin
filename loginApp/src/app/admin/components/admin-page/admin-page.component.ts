@@ -7,7 +7,9 @@ import * as CompanyActions from "../../../company/actions/company.action";
 import * as UIActions from "../../../UI/action/ui.action";
 import { MatDialog } from "@angular/material/dialog";
 import { ModalComponent } from "../../../UI/components/modal/modal.component";
+import { role } from "../../../shared/decorators/role.decorator";
 
+@role('admin')
 @Component({
   selector: 'app-admin-page',
   templateUrl: './admin-page.component.html',

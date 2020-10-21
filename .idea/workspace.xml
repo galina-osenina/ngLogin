@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2db2fc17-3d66-46d7-8d74-726b73d7eedd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/loginApp/src/app/UI/effects/modal.effect.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginApp/src/app/UI/services/modal.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginApp/src/app/shared/decorators/role.decorator.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/UI/action/ui.action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/UI/action/ui.action.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/UI/models/modal.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/UI/models/modal.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/UI/reducers/modal.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/UI/reducers/modal.reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/admin/components/admin-page/admin-page.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginApp/src/app/user/components/user-page/user-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loginApp/src/app/user/components/user-page/user-page.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cvideo-web-ng2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/loginApp/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -93,6 +88,7 @@
       <workItem from="1601912288426" duration="599000" />
       <workItem from="1602142976266" duration="9441000" />
       <workItem from="1602486599755" duration="22982000" />
+      <workItem from="1603264646724" duration="2167000" />
     </task>
     <servers />
   </component>
